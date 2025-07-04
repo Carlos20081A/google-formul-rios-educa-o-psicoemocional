@@ -1,0 +1,16 @@
+
+const texto = "O número da casa é 123 e o CEP é 04567-000."; 
+const numeros = texto.match(/\d+/g); 
+console.log(numeros); 
+const texto = "Eu colaborei com a turma nesse projeto."; 
+const resultado = texto.match(/\bcolaborei\b/); 
+console.log(resultado); 
+const texto = "A minha matéria preferida é Ciências."; 
+const resultado = texto.match(/ciências/i); 
+console.log(resultado); 
+const texto = "Estudamos a poluição do ar e da água."; 
+const resultado = texto.match(/água|ar|terra/g); .
+console.log(resultado); 
+const texto = "Programar é divertido!"; 
+const vogais = texto.match(/[aeiou]/gi); 
+console.log(vogais); 
